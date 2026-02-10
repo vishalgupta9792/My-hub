@@ -1,5 +1,6 @@
-import Hello from "./Hello";
-import Button from "./Button";
+import {Hello} from "./Hello";
+import {Button} from "./Button";
+import {Welcome} from "./Welcome";
 import './App.css';
 
 function App() {
