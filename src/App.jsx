@@ -9,12 +9,17 @@ import {Product} from "./Product";
 import { CardWrapper } from "./CardWrapper";
 import { ProductList } from "./ProductList";
 import { NameList } from "./NameList";
+import {Alert } from "./Alert";
+import { NewButton } from "./NewButton";
 import './App.css';
 
 function App() {
  
   return (
     <div>
+      <Alert type="success">Success! Your File has been saved!</Alert>
+       <Alert type="error">Error! Something went wrong!</Alert>
+       <NewButton />
       <NameList />
     <ProductList />
         <CardWrapper title="User Profile">
